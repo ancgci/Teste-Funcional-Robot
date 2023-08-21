@@ -30,20 +30,21 @@ O framework ROBOT é desenvolvido em Python atualmente.
 
 ## Configurando
 
--Realize a instalação do Python
--Realize a instalação do "Driver" conforme seu navegador, caso seja o [Chrome]( https://chromedriver.chromium.org/downloads).
+- Realize a instalação do Python
+- Realize a instalação do "Driver" conforme seu navegador, caso seja o [Chrome]( https://chromedriver.chromium.org/downloads).
+- Descompacte o aquivo e coloque na pasta System32
+- Faça o teste no terminal de preferência para confirmar a ação realizada "chromedriver -v" (chrome) 
+- Faça a instalação do RobotWebDriver "pip install robotframework"
+- Faça a instalação do Selenium Webdriver "pip install robotframework-seleniumlibrary"
+
 Pessolamente utilizei o EDGE da Microsoft assim tive que baixar o arguivo do site da EDGE. Conforme o seu navegador de uso se faz necessário baixar o Drive respetivo. 
--Descompacte o aquivo e coloque na pasta System32
--Faça o teste no terminal de preferência para confirmar a ação realizada "chromedriver -v" (chrome) 
--Faça a instalação do RobotWebDriver "pip install robotframework"
--Faça a instalação do Selenium Webdriver "pip install robotframework-seleniumlibrary"
 
 ## Esquema utilizado no Robot
 
---Settings
---Varibles
---Test Case
---Keywords
+- Settings
+- Varibles
+- Test Case
+- Keywords
 
 ## Sitio Testado
 
