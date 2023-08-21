@@ -49,7 +49,7 @@ E clicar no botão login
 Então o usuário deve acessar o sistema com sucesso
    Wait Until Element Is Visible    ${VARTEST.loginSucesso}
 
-Tirar print 1
+E tirar print 1
   Sleep    3s
   Capture Page Screenshot
 
@@ -66,7 +66,7 @@ E clicar no botão login 2
 Então o usuário deve ver a messagem de requisição da senha
    Wait Until Element Is Visible   ${VARTEST.erroSenha}
 
-Tirar print 2
+E tirar print 2
   Sleep    3s
   Capture Page Screenshot
 
@@ -77,7 +77,7 @@ E clicar no botão login 3
    Click Element  ${VARTEST.botaoLog}
 Então o usuário deve ver a messagem de requisição do login
    Wait Until Element Is Visible   ${VARTEST.erroLogin}
-Tirar print 3
+E tirar print 3
   Sleep    3s
   Capture Page Screenshot
    
@@ -91,7 +91,7 @@ Caso de teste 1: logar no site com sucesso
    Quando preencher os dados de login e senha
    E clicar no botão login
    Então o usuário deve acessar o sistema com sucesso
-   Tirar print 1
+   E tirar print 1
 
 Caso de teste 2: logar no site com insucesso
    [Tags]    tc2
@@ -99,14 +99,14 @@ Caso de teste 2: logar no site com insucesso
    Quando preencher o dado de login e não colocar a senha
    E clicar no botão login 2
    Então o usuário deve ver a messagem de requisição da senha
-   Tirar print 2
+   E tirar print 2
 
 Caso de teste 3: logar no site com insucesso sem dados algum
    [Tags]    tc3
    Dado que o cliente acesse o site 3
    E clicar no botão login 3
    Então o usuário deve ver a messagem de requisição do login
-   Tirar print 3
+   E tirar print 3
 
 
    
