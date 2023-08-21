@@ -12,9 +12,9 @@ Os testes funcionais em estágio de Qualidade de Software são realizados para v
 
 Assim apresentamos aqui o teste funcional com o uso do framework Robot em BDD. Serão tratados os seguintes casos de testes:
 
--- Login com sucesso
--- Tentativa de login só com "username", assim esperamos o erro ao tentar logar
--- Tentativa de login sem usuario e sem senha. 
+- Login com sucesso
+- Tentativa de login só com "username", assim esperamos o erro ao tentar logar
+- Tentativa de login sem usuario e sem senha. 
 
 ## IDE utilizada
 
