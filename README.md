@@ -68,4 +68,4 @@ Pessolamente utilizei o EDGE da Microsoft assim tive que baixar o arguivo do sit
 
 MIT
 
-**Free Software**
+
