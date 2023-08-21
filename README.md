@@ -12,9 +12,9 @@ Os testes funcionais em estágio de Qualidade de Software são realizados para v
 
 Assim apresentamos aqui o teste funcional com o uso do framework Robot em BDD. Serão tratados os seguintes casos de testes:
 
-- Login com sucesso
-- Tentativa de login só com "username", assim esperamos o erro ao tentar logar
-- Tentativa de login sem usuario e sem senha. 
+-- Login com sucesso
+-- Tentativa de login só com "username", assim esperamos o erro ao tentar logar
+-- Tentativa de login sem usuario e sem senha. 
 
 ## IDE utilizada
 
@@ -40,10 +40,10 @@ Pessolamente utilizei o EDGE da Microsoft assim tive que baixar o arguivo do sit
 
 ## Esquema utilizado no Robot
 
--Settings
--Varibles
--Test Case
--Keywords
+--Settings
+--Varibles
+--Test Case
+--Keywords
 
 ## Sitio Testado
 
@@ -63,9 +63,8 @@ Pessolamente utilizei o EDGE da Microsoft assim tive que baixar o arguivo do sit
 ![3](https://github.com/ancgci/Teste-Funcional-Robot/blob/main/imagens/testecase3.png)
 
 
-
 ## License
 
 MIT
 
-**Free Software**
+
